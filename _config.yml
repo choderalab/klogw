@@ -2,7 +2,7 @@
 permalink:           pretty
 
 # Setup
-title:               klogw
+title:               "S = k log W"
 tagline:             Molecular Stimulation
 url:                 https://choderalab.github.io/klogw/
 paginate:            1
