@@ -2,11 +2,11 @@
 permalink:           pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               klogw
+tagline:             Molecular Stimulation
+url:                 https://choderalab.github.io/klogw/
 paginate:            1
-baseurl:             ""
+baseurl:             "https://choderalab.github.io/klogw/"
 
 # Assets
 #
@@ -17,14 +17,14 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              John D. Chodera
+  url:               http//choderalab.org
+  email:             john.chodera@choderalab.org
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/choderalab/klogw
 
 # Gems
 gems:
