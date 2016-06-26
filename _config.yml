@@ -15,6 +15,7 @@ baseurl:             https://choderalab.github.io/klogw/
 author:
   name:              John D. Chodera
   url:               http//choderalab.org
+  urlname:           "Chodera lab"
   email:             john.chodera@choderalab.org
 
 paginate:         5
