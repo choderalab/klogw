@@ -1,32 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
 # Permalinks
-permalink:           pretty
+permalink:        pretty
+relative_permalinks: true
 
 # Setup
-title:               "S = k log W"
-tagline:             Molecular Stimulation
-url:                 https://choderalab.github.io/klogw/
-paginate:            1
-baseurl:             "https://choderalab.github.io/klogw/"
+title:            Hyde
+tagline:          'A Jekyll theme'
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://hyde.getpoole.com
+baseurl:          /
 
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
-
-# About/contact
 author:
-  name:              John D. Chodera
-  url:               http//choderalab.org
-  email:             john.chodera@choderalab.org
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
+
+paginate:         5
 
 # Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/choderalab/klogw
+version:          2.1.0
 
-# Gems
-gems:
-  - jekyll-paginate
-  - jekyll-gist
+github:
+  repo:           https://github.com/poole/hyde
