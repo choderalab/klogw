@@ -38,4 +38,9 @@ Poole and its themes are by preference a forward-thinking project. In addition t
 
 These themes are developed on and hosted with GitHub. Head to the [GitHub repository]({{ site.github.repo }}) for downloads, bug reports, and features requests.
 
+### MathJax
+
+This is some math:
+$$ \mathbf{X}\_{n,p} = \mathbf{A}\_{n,k} \mathbf{B}\_{k,p} $$
+
 Thanks!
