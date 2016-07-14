@@ -16,6 +16,7 @@ title: How to write a Methods section.
 Traditionally, papers had rigid structure: Intro, Methods, Results, Conclusions. Not necessary with modern formats: tell story without getting too many irrelevant details in he way, but include complete details.
 
 ## Examples of Methods sections:
+
 ### Computational
 * Our [Ensembler paper](http://www.choderalab.org/s/Ensembler-enabling-high-throughput-molecular-simulations-at-the-superfamily-scale.pdf) clearly describes the reasoning behind each step of the protocol.
 * Our [automatic equilibration detection paper](http://www.choderalab.org/s/A-simple-method-for-automated-equilibration-detection-in-molecular-simulations.pdf) first explains the results, keeping experimental details minimal, and relegates the detailed computational methodology to a later section.
