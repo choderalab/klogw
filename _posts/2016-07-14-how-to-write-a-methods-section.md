@@ -72,10 +72,11 @@ Don't clog up the main flow of the story with irrelevant details, but be complet
 
 ## Writing an experimental methods section
 * Describe all materials used and steps performed, along with why!
-* Include Supplier, Product, and lot number for materials used (bad lots story)
-- standards for characterization and documentation often published by journals (eg JACS Guidelines for Authors)
-- make primary data (eg .itc files) available online and/or supplementary data (or both: supplementary data likely to be resilient, but online can be updated if we find some problems or a way to make the data more useful)
-- sharing huge tables of numbers ONLY as a PDF is not acceptable!
+* Include Supplier, Product, and lot number for materials used
+* standards for characterization and documentation often published by journals (e.g., [JACS Guidelines for Characterization of Organic Compounds](http://pubs.acs.org/page/jacsat/submission/org_character.html))
+* make primary data (eg .itc files) available online and/or supplementary data (or both: supplementary data likely to be resilient, but online can be updated if we find some problems or a way to make the data more useful)
+* sharing huge tables of numbers ONLY as a PDF is not acceptable!
+* Some great lessons in [this article from Bruce Gibb](http://www.nature.com/nchem/journal/v6/n8/full/nchem.2017.html)
 
 ----
 
