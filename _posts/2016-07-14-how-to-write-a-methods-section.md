@@ -1,7 +1,19 @@
 ---
 layout: post
-title: How to write a Methods section.
+title: How to write a Methods section
+date: 2016-07-25
+published: true
+tags:
+  - writing
+  - papers
+  - methods
+author: jchodera
 ---
+
+Our relatively young group has nine graduate students, and a number of them are starting to write up their first manuscripts for submission.
+To help prepare them to be better writers and communicators in the primary medium of our trade---scientific publications---I've started to present some useful pointers on how to actually go about organizing and writing a manuscript to be submitted as a scientific journal article as part of our Hot Topics series.
+I'm sharing this material in case others find it useful!
+Please feel free to provide feedback or suggestions as to how we can improve these resources and suggestions!
 
 ## Resources for writing papers
 
