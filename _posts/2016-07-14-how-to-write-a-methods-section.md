@@ -25,6 +25,10 @@ Please feel free to provide feedback or suggestions as to how we can improve the
 
 ----
 
+## Guidelines for writing a Methods section
+
+### Choosing a structure
+
 Traditionally, papers had rigid structure:
 * Introduction
 * Methods
@@ -35,7 +39,29 @@ Conforming to such a rigid structure often makes it difficult to tell the scient
 Rigidly conforming to this structure is not as necessary with modern formats:
 You can find a structure that allows you to tell the story without having too many irrelevant details get in the way, making sure to include complete details in an appropriate location so that the work is fully reproducible by other scientists and evaluable by refrees.
 
-## Examples of Methods sections:
+### Be empathic!
+
+* Think about the poor grad student that will have to reproduce or build on your work.
+Help them out by making it easy for them to understand, reproduce, and extend your work!
+* Be empathic toward reviewers: don't make your readers hunt through a dozen papers for the key details, but do cite earlier work.
+
+### Provide sufficient detail
+
+You will need to provide sufficient detail for a competent researcher in the field to reproduce it.
+* Document everything you did in detail
+* Send to someone in another lab to read through to see if you have provided enough information for them to reproduce your work
+* Post to a preprint server and see if people have questions about information you may have left out
+
+### Keep the flow clean
+
+Don't clog up the main flow of the story with irrelevant details, but be complete by including what is needed somewhere (e.g., separate Detailed Methods section, Appendix, etc.)
+
+----
+
+## Examples of good Methods sections
+
+The best way to get a feel for what makes a *good* Methods section is to read a lot of them, and judge for yourself which structures work well in effectively communicating what was done and why.
+Here are a few papers we have written that we feel are good examples of different strategies for doing this:
 
 ### Computational
 * Our [Ensembler paper](http://www.choderalab.org/s/Ensembler-enabling-high-throughput-molecular-simulations-at-the-superfamily-scale.pdf) clearly describes the reasoning behind each step of the protocol.
@@ -47,30 +73,8 @@ You can find a structure that allows you to tell the story without having too ma
 
 ----
 
-## Be empathic!
+## Writing a computational Methods section
 
-* Think about the poor grad student that will have to reproduce or build on your work.
-Help them out by making it easy for them to understand, reproduce, and extend your work!
-* Be empathic toward reviewers: don't make your readers hunt through a dozen papers for the key details, but do cite earlier work.
-
-----
-
-## Provide sufficient detail
-
-You will need to provide sufficient detail for a competent researcher in the field to reproduce it.
-* Document everything you did in detail
-* Send to someone in another lab to read through to see if you have provided enough information for them to reproduce your work
-* Post to a preprint server and see if people have questions about information you may have left out
-
-----
-
-## Keep the flow clean
-
-Don't clog up the main flow of the story with irrelevant details, but be complete by including what is needed somewhere (e.g., separate Detailed Methods section, Appendix, etc.)
-
-----
-
-## Writing a computational methods section
 * What's the point?
   - ensure someone understands what you did and WHY you did it; make sure you explain WHY! This is often neglected.
   - ensure a competent practitioner can reproduce
@@ -82,7 +86,6 @@ Don't clog up the main flow of the story with irrelevant details, but be complet
   - only need to document non default options, but best to make a statement that default options were used unless otherwise specified
   - give credit; cite papers that go along with tools, forcefields, structures (if possible)
   - explain how error estimates were computed and what they represent (eg standard error of the mean)
-
 * What's the best way to do capture the info you need to write the methods section?
   - automate it: use a script to perform the whole process
     - exact record of what you did that you can turn into text later
@@ -91,7 +94,7 @@ Don't clog up the main flow of the story with irrelevant details, but be complet
 
 ----
 
-## Writing an experimental methods section
+## Writing an experimental Methods section
 * Describe all materials used and steps performed, along with why!
 * Include Supplier, Product, and lot number for materials used
 * standards for characterization and documentation often published by journals (e.g., [JACS Guidelines for Characterization of Organic Compounds](http://pubs.acs.org/page/jacsat/submission/org_character.html))
@@ -108,5 +111,6 @@ Recently, journals (like the Nature Publishing Group) have devoted a lot of thou
 - An example on removing center-of-mass velocities
 
 ## Can we go further to make work more reproducible?
+
 * [conda](http://conda.pydata.org/) allows easy reproducibility: An example from our [automatic equilibration detection paper](https://github.com/choderalab/automatic-equilibration-detection/blob/master/examples/liquid-argon/reproduce.sh)
 * [Docker images](https://www.docker.com/) can be deployed via [Docker hub](https://hub.docker.com/r/jchodera/docker-fah-client/) and can guard against upstream package changes or OS differences
