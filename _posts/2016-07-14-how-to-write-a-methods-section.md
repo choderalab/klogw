@@ -48,13 +48,14 @@ Help them out by making it easy for them to understand, reproduce, and extend yo
 ### Provide sufficient detail
 
 You will need to provide sufficient detail for a competent researcher in the field to reproduce it.
+
 * Document everything you did in detail
 * Send to someone in another lab to read through to see if you have provided enough information for them to reproduce your work
 * Post to a preprint server and see if people have questions about information you may have left out
 
 ### Keep the flow clean
 
-Don't clog up the main flow of the story with irrelevant details, but be complete by including what is needed somewhere (e.g., separate Detailed Methods section, Appendix, etc.)
+Don't clog up the main flow of the story with irrelevant details, but be complete by including what is needed somewhere (e.g., separate Detailed Methods section, Appendix, etc.).
 
 ----
 
@@ -78,7 +79,7 @@ Here are a few papers we have written that we feel are good examples of differen
 * What's the point?
   - ensure someone understands what you did and WHY you did it; make sure you explain WHY! This is often neglected.
   - ensure a competent practitioner can reproduce
-* Describing a simulation:
+* When describing a simulation, ensure someone else can reproduce what you did.
   - how was the system prepared? Where did starting coordinates come from?
   - how were parameters assigned?
   - how was minimization and equilibration done?
