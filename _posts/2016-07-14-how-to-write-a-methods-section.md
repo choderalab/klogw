@@ -1,5 +1,6 @@
 ---
 layout: post
+author: jchodera
 title: How to write a Methods section
 date: 2016-07-25
 published: true
@@ -7,7 +8,6 @@ tags:
   - writing
   - papers
   - methods
-author: jchodera
 ---
 
 Our relatively young group has nine graduate students, and a number of them are starting to write up their first manuscripts for submission.
@@ -15,7 +15,7 @@ To help prepare them to be better writers and communicators in the primary mediu
 I'm sharing this material in case others find it useful!
 Please feel free to provide feedback or suggestions as to how we can improve these resources and suggestions!
 
-## Resources for writing papers
+## Where to start? Resources for writing scientific papers
 
 - Always read journal guidelines for authors first: They contain useful information
   - [JACS Information for Authors](http://pubs.acs.org/page/jacsat/submission/authors.html)
@@ -25,7 +25,15 @@ Please feel free to provide feedback or suggestions as to how we can improve the
 
 ----
 
-Traditionally, papers had rigid structure: Intro, Methods, Results, Conclusions. Not necessary with modern formats: tell story without getting too many irrelevant details in he way, but include complete details.
+Traditionally, papers had rigid structure:
+* Introduction
+* Methods
+* Results
+* Conclusions
+
+Conforming to such a rigid structure often makes it difficult to tell the scientific story.
+Rigidly conforming to this structure is not as necessary with modern formats:
+You can find a structure that allows you to tell the story without having too many irrelevant details get in the way, making sure to include complete details in an appropriate location so that the work is fully reproducible by other scientists and evaluable by refrees.
 
 ## Examples of Methods sections:
 

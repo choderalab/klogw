@@ -1,0 +1,10 @@
+# Author details.
+# Added using ideas here: https://blog.sorryapp.com/blogging-with-jekyll/2014/02/06/adding-authors-to-your-jekyll-site.html
+jchodera:
+    name: John D. Chodera
+    email: john.chodera@choderalab.org
+    web: http://twitter.com/jchodera
+maxentile:
+    name: Josh Fass
+    email: josh.fass@choderalab.org
+    web: https://twitter.com/maxentile
