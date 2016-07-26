@@ -2,7 +2,7 @@
 layout: post
 author: jchodera
 date: 2016-07-18
-title: Introduction
+title: We have a blog!
 published: true
 ---
 
