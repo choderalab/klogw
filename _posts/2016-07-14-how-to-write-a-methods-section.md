@@ -86,7 +86,7 @@ Here are a few papers we have written that we feel are good examples of differen
   - document software (vendor if applicable) and versions
   - only need to document non default options, but best to make a statement that default options were used unless otherwise specified
   - give credit; cite papers that go along with tools, forcefields, structures (if possible)
-  - explain how error estimates were computed and what they represent (eg standard error of the mean)
+  - explain how error estimates were computed and what they represent (e.g., standard error of the mean)
 * What's the best way to do capture the info you need to write the methods section?
   - automate it: use a script to perform the whole process
     - exact record of what you did that you can turn into text later
@@ -96,6 +96,7 @@ Here are a few papers we have written that we feel are good examples of differen
 ----
 
 ## Writing an experimental Methods section
+
 * Describe all materials used and steps performed, along with why!
 * Include Supplier, Product, and lot number for materials used
 * standards for characterization and documentation often published by journals (e.g., [JACS Guidelines for Characterization of Organic Compounds](http://pubs.acs.org/page/jacsat/submission/org_character.html))
@@ -107,11 +108,15 @@ Here are a few papers we have written that we feel are good examples of differen
 
 ## Is there a "reproducibility crisis" in science?
 
-Recently, journals (like the Nature Publishing Group) have devoted a lot of thought and discussion to the "reproducibility crisis" in science.
-- [Nature Publishing Group papers](http://www.nature.com/news/reproducibility-1.17552)
-- An example on removing center-of-mass velocities
+Recently, a number of journals have devoted a lot of thought and discussion to the "reproducibility crisis" in science.
+Some of these problems have been blamed on poor practices for presenting research methodologies.
+The Nature Publishing Group has collected a number of perspectives and examinations of the subject here:
+
+* [Nature Publishing Group: Reproducibility](http://www.nature.com/news/reproducibility-1.17552)
 
 ## Can we go further to make work more reproducible?
 
-* [conda](http://conda.pydata.org/) allows easy reproducibility: An example from our [automatic equilibration detection paper](https://github.com/choderalab/automatic-equilibration-detection/blob/master/examples/liquid-argon/reproduce.sh)
+New technology makes it easier to share the *exact* version of the code to perform the study and analyze the data, and potentially even isolate against upstream software issues by emulating the platform on which the work was performed:
+
+* [conda](http://conda.pydata.org/) allows easy reproducibility: An example from our [automatic equilibration detection paper](https://github.com/choderalab/automatic-equilibration-detection/blob/master/examples/liquid-argon/reproduce.sh) that utilizes the [Omnia suite](http://omnia.md)
 * [Docker images](https://www.docker.com/) can be deployed via [Docker hub](https://hub.docker.com/r/jchodera/docker-fah-client/) and can guard against upstream package changes or OS differences
