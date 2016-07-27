@@ -2,8 +2,8 @@
 layout: post
 author: jchodera
 title: How to write a Methods section
-date: 2016-07-25
-published: true
+date: 2016-07-28
+published: false
 tags:
   - writing
   - papers
@@ -118,5 +118,5 @@ The Nature Publishing Group has collected a number of perspectives and examinati
 
 New technology makes it easier to share the *exact* version of the code to perform the study and analyze the data, and potentially even isolate against upstream software issues by emulating the platform on which the work was performed:
 
-* [conda](http://conda.pydata.org/) allows easy reproducibility: An example from our [automatic equilibration detection paper](https://github.com/choderalab/automatic-equilibration-detection/blob/master/examples/liquid-argon/reproduce.sh) that utilizes the [Omnia suite](http://omnia.md)
+* [conda](http://conda.pydata.org/) allows easy reproducibility because packages can be pinned to specific versions. Our recent [automatic equilibration detection paper](https://github.com/choderalab/automatic-equilibration-detection/blob/master/examples/liquid-argon/reproduce.sh) that utilizes the [Omnia suite](http://omnia.md)
 * [Docker images](https://www.docker.com/) can be deployed via [Docker hub](https://hub.docker.com/r/jchodera/docker-fah-client/) and can guard against upstream package changes or OS differences

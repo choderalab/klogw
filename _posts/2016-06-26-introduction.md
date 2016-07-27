@@ -1,7 +1,7 @@
 ---
 layout: post
 author: jchodera
-date: 2016-07-18
+date: 2016-07-27
 title: We have a blog!
 published: true
 ---
