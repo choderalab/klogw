@@ -15,9 +15,9 @@ To help prepare them to be better writers and communicators in the primary mediu
 I'm sharing this material in case others find it useful!
 Please feel free to provide feedback or suggestions as to how we can improve these resources and suggestions!
 
-## Where to start?
+## Where should I start?
 
-There are some great resources available for writing scientific papers that are a good place to start:
+There are some great resources available for writing scientific papers:
 
 - Always read journal guidelines for authors first! They contain useful information about what kinds of manuscripts are accepted, as well as formatting requirements, required content, and guidelines for presenting or organizing certain kinds of information:
   - [JACS Information for Authors](http://pubs.acs.org/page/jacsat/submission/authors.html)
