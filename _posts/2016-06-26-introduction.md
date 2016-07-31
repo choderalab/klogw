@@ -19,5 +19,6 @@ As always, we appreciate your feedback! You can find us at [http://choderalab.or
 This site uses the [Hyde](https://github.com/poole/hyde) theme for [Jekyll](http://jekyllrb.com), the static site generator.
 It was based on [Poole](https://github.com/poole/poole), and designed and developed by [@mdo](https://twitter.com/mdo) to provide a clear and concise foundational setup for any Jekyll site.
 It does so by furnishing a full vanilla Jekyll install with example layouts, pages, posts, and styles.
-Equation support is provided via [MathJax](https://jekyllrb.com/docs/extras/).
+Equation support is provided via [MathJax](https://jekyllrb.com/docs/extras/), like this:
+
 $$ \mathbf{X}_{n,p} = \mathbf{A}_{n,k} \mathbf{B}_{k,p} $$
