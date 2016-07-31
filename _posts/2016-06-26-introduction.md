@@ -10,7 +10,7 @@ This is a blog about algorithms for molecular simulation, sampling methods, simu
 
 Various members of [the Chodera lab](http://choderalab.org) will contribute from time to time as we have interesting results to share, useful literature roundups, or new ideas for algorithms.
 
-As always, we appreciate your feedback! You can find us
+As always, we appreciate your feedback! You can find us at [http://choderalab.org](http://choderalab.org) or on [twitter](https://twitter.com/jchodera).
 
 -----
 
