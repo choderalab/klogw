@@ -15,7 +15,7 @@ timescales in a model free way. Since the timescales for slow processes are inva
 can be compared to timescales extracted through other means as a way to invalidate proposed kinetic models.
 
 The theoretical correlation function can be expressed as a sum of exponential $$ \mathbf C(t) = \sum_{i=1}^N A_i e^{-t/\tau_i } $$. The
-naïve approach to find A_i and τ_i is to use Ordinary Least Squares (OLS) to fit the experimental CF to this sum.
+naïve approach to find $$\mathbf {A_i} $$ and $$\mathbf {τ_i} $$ is to use Ordinary Least Squares (OLS) to fit the experimental CF to this sum.
 If the error is Gaussian distributed and the errors are uncorrelated, OLS reduces to the Maximum Likelihood Estimate
 (MLE). However, in many time-series data, the assumption that the errors are uncorrelated is violated since the CF is
 calculated from the same trajectory and the points are not independent. In [Lomakin’s paper “Fitting the Correlation
