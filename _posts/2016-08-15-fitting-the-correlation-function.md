@@ -19,7 +19,7 @@ The theoretical correlation function can be expressed as a sum of exponential $$
 The naïve approach to find $$\mathbf {A_i} $$ and $$\mathbf {τ_i} $$ from the experimental correlation function is to use Ordinary Least Squares (OLS) to fit the experimental CF to this sum. If the error is Gaussian distributed and the errors are uncorrelated, OLS reduces to the Maximum Likelihood Estimate
 (MLE). However, in many time-series data, the assumption that the errors are uncorrelated is violated since the CF is
 calculated from the same trajectory and the points are not independent. In [Lomakin’s paper “Fitting the Correlation
-Function”] (http://web.mit.edu/physics/benedek/ArticlesMore/FitCorFunc2001.pdf) the problem is cast as a Gaussian
+Function”](http://web.mit.edu/physics/benedek/ArticlesMore/FitCorFunc2001.pdf) the problem is cast as a Gaussian
 Process with a covariance function given by the sum of exponential. For
 large N, Lomakin shows that the Gaussian Process approach reduces to the Generalized Least Squares (GLS) where the
 covariance matrix accounts for the correlation between the points when fitting the correlation function.
