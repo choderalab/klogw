@@ -2,21 +2,30 @@
 layout: default
 ---
 
-<!-- Look the author details up from the site config. -->
-{% assign author = site.data.authors[page.author] %}
-
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-
-  <!-- Output author details if some exist. -->
-  {% if author %}
-      <span>
-          <!-- Personal Info. -->
-          Written by <a href="{{ author.web }}" target="_blank">{{ author.name }}</a>
-      </span>
-  {% endif %}
-
+  <!-- Output author details if some exist. -->  
+  <span class="post-authors">
+    {% assign authorCount = page.author | size %}
+    {% if authorCount == 0 %}
+      <a href="http://www.choderalab.org" target="_blank">Chodera lab </a>
+    {% elsif authorCount == 1 %}
+      {% assign the_author = site.data.authors[page.author] %}
+        Written by <a href="{{ the_author.web }}" target="_blank">{{ the_author.name }}</a>    
+    {% else %}
+      {% for nth_author in page.author %}
+        {% assign the_author = site.data.authors[nth_author]%}
+        {% if forloop.first %}        
+          Written by <a href="{{ the_author.web }}" target="_blank">{{ the_author.name }}</a>
+        {% elsif forloop.last %}
+          and <a href="{{ the_author.web }}" target="_blank">{{ the_author.name }}</a>
+        {% else %}
+            , <a href="{{ the_author.web }}" target="_blank">{{ the_author.name }}</a>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  </span>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
 </div>
