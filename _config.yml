@@ -9,7 +9,7 @@ permalink:        pretty
 title:               "S=k.logW"
 tagline:             "Molecular Stimulation"
 url:                 https://choderalab.github.io/klogw/
-baseurl:             /
+baseurl:             ''
 
 # About/contact
 author:
