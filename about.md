@@ -4,27 +4,22 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  The Chodera lab uses computation and experiment to develop quantitative, multiscale models of the effects of small molecules on biomolecular macromolecules and cellular pathways. To do this, the group utilizes physical models and rigorous statistical mechanics, with overall goals of engineering novel therapeutics and tools for chemical biology, as well as understanding the physical driving forces behind the evolution of resistance mutations. The group makes use of advanced algorithms for molecular dynamics simulations on GPUs and distributed computing platforms, in addition to robot-driven high-throughput experiments focusing on characterizing biophysical interactions between proteins and small molecules.
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+You can find more from the Chodera lab at:
 
-There are currently two themes built on Poole:
+* [Chodera lab website](http://choderalab.org)
+* [John Chodera's twitter feed](http://twitter.com/jchodera)
+* The [Chodera lab GitHub page](http://github.com/choderalab)
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+-----
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+### Blogging platform
 
-## Setup
+This site uses the [Hyde](https://github.com/poole/hyde) theme for [Jekyll](http://jekyllrb.com), the static site generator.
+It was based on [Poole](https://github.com/poole/poole), and designed and developed by [@mdo](https://twitter.com/mdo) to provide a clear and concise foundational setup for any Jekyll site.
+It does so by furnishing a full vanilla Jekyll install with example layouts, pages, posts, and styles.
+Equation support is provided via [MathJax](https://jekyllrb.com/docs/extras/), like this:
 
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+$$ \mathbf{X}_{n,p} = \mathbf{A}_{n,k} \mathbf{B}_{k,p} $$
