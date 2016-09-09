@@ -3,28 +3,6 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+This is a blog about algorithms for molecular simulation, sampling methods, simulating systems with true chemical fidelity, statistical mechanics, cargo cult science in drug discovery, and Markov chain Monte Carlo in general.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
-
-There are currently two themes built on Poole:
-
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+The Chodera lab uses computation and experiment to develop quantitative, multiscale models of the effects of small molecules on biomolecular macromolecules and cellular pathways. To do this, the group utilizes physical models and rigorous statistical mechanics, with overall goals of engineering novel therapeutics and tools for chemical biology, as well as understanding the physical driving forces behind the evolution of resistance mutations. The group makes use of advanced algorithms for molecular dynamics simulations on GPUs and distributed computing platforms, in addition to robot-driven high-throughput experiments focusing on characterizing biophysical interactions between proteins and small molecules.
