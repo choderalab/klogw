@@ -36,7 +36,10 @@ title: Home
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
+    {{ post.content | strip_html | truncatewords:150, "..." }}
+    <br>
+    <a href="{{ post.url }}">Click here to read the full post</a>  
+
   </div>
   {% endfor %}
 </div>
