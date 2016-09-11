@@ -15,6 +15,8 @@ To help prepare them to be better writers and communicators in the primary mediu
 I'm sharing this material in case others find it useful!
 Please feel free to provide feedback or suggestions as to how we can improve these resources and suggestions!
 
+<!--more-->
+
 ## Where should I start?
 
 There are some great resources available for writing scientific papers:

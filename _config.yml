@@ -22,6 +22,7 @@ paginate:         5
 
 # Custom vars
 version:          2.1.0
+excerpt_separator: "<!--more-->"
 
 github:
   repo:           https://github.com/choderalab/klogw
