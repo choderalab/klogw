@@ -14,6 +14,8 @@ contains all of the essential information of the trajectories in compact form an
 timescales in a model free way. Since the timescales for slow processes are invariant to the system, these timescales
 can be compared to timescales extracted through other means as a way to invalidate proposed kinetic models.
 
+<!--more-->
+
 The theoretical correlation function can be expressed as a sum of exponential $$ \mathbf C(t) = \sum_{i=1}^N A_i e^{-t/\tau_i } $$. The correlation function can also be computed from Markov State Models that were parameterized with many Molecular Dynamics trajectories as described in [this](http://www.sciencedirect.com/science/article/pii/S0301010411003892) paper, thus providing a way to directly connect simulations with experiments. 
 
 The naïve approach to find $$\mathbf {A_i} $$ and $$\mathbf {τ_i} $$ from the experimental correlation function is to use Ordinary Least Squares (OLS) to fit the experimental CF to this sum. If the error is Gaussian distributed and the errors are uncorrelated, OLS reduces to the Maximum Likelihood Estimate

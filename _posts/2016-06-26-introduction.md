@@ -14,6 +14,8 @@ As always, we appreciate your feedback! You can find us at [http://choderalab.or
 
 -----
 
+<!--more-->
+
 ### Blogging platform
 
 This site uses the [Hyde](https://github.com/poole/hyde) theme for [Jekyll](http://jekyllrb.com), the static site generator.
