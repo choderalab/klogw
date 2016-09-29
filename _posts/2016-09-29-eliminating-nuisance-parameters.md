@@ -7,12 +7,9 @@ title: Integrated likelihood methods for eliminating nuisance paramaters
 published: true
 ---
 
-The process of inferring conclusions from experimental observations often requires the construction and evaluation of a likelihood function, which, gives the probability, or probability density, of the observed data given a particular statistical model.
+The process of inferring conclusions from experimental observations often requires the construction and evaluation of a likelihood function, which gives the probability, or probability density, of the observed data given a particular statistical model.
 
-The likelihood function forms the basis for many statistical inference techniques. For example, one could estimate the parameters of a model by maximizing the likelihood. The problem is that likelihood functions frequently contain more parameters than we care about. The inexplicable oruninteresting
-noise that buffets processes of interest has to be parameterized and accounted for in the likelihood function. As Berger, Liseo, and Wolpert discuss in [this paper](https://projecteuclid.org/euclid.ss/1009211804), the existence of so-called ‘nuisance parameters’ severely hampers inference in many
-cases. The authors review a few of the common frequentist techniques for dealing with nuisance parameters in likelihood functions, but fall strongly in favor of integrating the likelihood function over the nuisance parameters. Although this method has a Bayesian flavor to it, the authors emphasize
-the practical benefits of integrated likelihoods, even for statisticians with more frequentist leanings.
+The likelihood function forms the basis for many statistical inference techniques. For example, one could estimate the parameters of a model by maximizing the likelihood. The problem is that likelihood functions frequently contain more parameters than we care about. The inexplicable or uninteresting noise that buffets processes of interest has to be parameterized and accounted for in the likelihood function. As Berger, Liseo, and Wolpert discuss in [this paper](https://projecteuclid.org/euclid.ss/1009211804), the existence of so-called ‘nuisance parameters’ severely hampers inference in many cases. The authors review a few of the common frequentist techniques for dealing with nuisance parameters in likelihood functions, but fall strongly in favor of integrating the likelihood function over the nuisance parameters. Although this method has a Bayesian flavor to it, the authors emphasize the practical benefits of integrated likelihoods, even for statisticians with more frequentist leanings.
 
 <!--more-->
 
@@ -24,7 +21,7 @@ samples drawn from a binomial distribution. This example is explored in [this Ju
 
 Imagine that we’ve been challenged by a friend to estimate the number of times a coin has been flipped in a series of independent sessions, but(!) we’re only told how many times the coin landed on heads. In each session, the coin is flipped N times, heads appears with a probability p, and both are
 unknown. How can we estimate N? The binomial distribution is the natural probabilistic model for this situation, and we can use it to construct a likelihood function for N given the number of times heads is drawn with p as the nuisance parameter. The example in the paper considers five sessions,
-with the number of heads being 16, 18, 22, 25, and 27 for each session. This example, including equations and code, is worked through in detail here [hyperlink]. For this case, the full two-dimensional likelihood surface looks like this:
+with the number of heads being 16, 18, 22, 25, and 27 for each session. This example, including equations and code, is worked through in detail [here](https://github.com/gregoryross/Walkthroughs/blob/master/Integrated_Likelihoods/Nuisance_paramaters_in_likelihoods.ipynb). For this case, the fulltwo-dimensional likelihood surface looks like this:
 
 ![image](https://github.com/gregoryross/Walkthroughs/blob/master/Integrated_Likelihoods/2D_Likelihood.png)
 
