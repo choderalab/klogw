@@ -23,13 +23,13 @@ Imagine that we’ve been challenged by a friend to estimate the number of times
 unknown. How can we estimate N? The binomial distribution is the natural probabilistic model for this situation, and we can use it to construct a likelihood function for N given the number of times heads is drawn with p as the nuisance parameter. The example in the paper considers five sessions,
 with the number of heads being 16, 18, 22, 25, and 27 for each session. This example, including equations and code, is worked through in detail [here](https://github.com/gregoryross/Walkthroughs/blob/master/Integrated_Likelihoods/Nuisance_paramaters_in_likelihoods.ipynb). For this case, the fulltwo-dimensional likelihood surface looks like this:
 
-![image](https://github.com/gregoryross/Walkthroughs/blob/master/Integrated_Likelihoods/2D_Likelihood.png)
+![image](/images/2D_Likelihood.png)
 
 One way to estimate N is to maximize the two-dimensional likelihood, then record the value of N and discard the value of p. This is equivalent to maximizing the ‘profile likelihood’ of N: the one-dimensional projection of the likelihood surface over the values of p that maximize the likelihood for
 a given value of N. An alternative way to reduce the dimensionality of the full likelihood is to condition it on the sufficient statistic of the data, creating a ‘conditional likelihood’. Instead, Berger et al. recommend integrating the likelihood surface over p, which we can approximately think of
 as giving us the probability of observing N irrespective of the value of p. These dimensionality-reduced likelihoods are shown below:
 
-![image](https://github.com/gregoryross/Walkthroughs/blob/master/Integrated_Likelihoods/1D_likelihoods.png)
+![image](/images/1D_likelihoods.png)
 
 These three methods for eliminating the nuisance parameter p produce strikingly different likelihoods. As the conditional likelihood increases monotonically with N---without limit---it provides no basis for maximum likelihood estimation. While both the integrated and profile likelihoods have well
 defined maxima, the integrated likelihood has a maximum roughly half that of profile likelihood (shown in dotted lines). But which estimate is ‘better’? The curvature of the (log) likelihoods around the maximum is related to the uncertainty in our estimate of N. The fact that the integrated
