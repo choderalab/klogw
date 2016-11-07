@@ -2,7 +2,7 @@
 layout: post
 author: gregoryross
 date: 2016-09-28
-title: Integrated likelihood methods for eliminating nuisance paramaters
+title: Integrated likelihood methods for eliminating nuisance parameters
 published: true
 ---
 
