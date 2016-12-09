@@ -13,7 +13,7 @@ The NIH has posted an [RFI on including "preprints and interim research products
 Many others have provided responses to this RFI that they have shared publicly, including thoughtful responses from [David Mobley](http://mobleylab.org/2016/11/17/where-do-we-hope-publishing-is-headed-preprints-and-interim-research-products/), [Steven Floor](https://twitter.com/stephenfloor/status/806986294127538176), and others that have been collected by [ASAPBio](http://asapbio.org/nih-rfi).
 Here is my response, written very quickly on a train ride back from the NIH:
 
-1. Types of interim research products your or your organization create/and or host.
+### Types of interim research products your or your organization create/and or host
 
 My laboratory in a mixed wet/dry laboratory. Interim research projects my laboratory both creates and uses are:
 * Preprints and other prepublication sharing mechanisms
@@ -32,7 +32,7 @@ My laboratory in a mixed wet/dry laboratory. Interim research projects my labora
 * 3D printed parts
     * We have shared a number of 3D printed parts designed by members of our laboratory both on [the laboratory website](http://www.choderalab.org/3dparts/) and on the [NIH 3D Print Exchange](http://3dprint.nih.gov/users/choderalab).
 
-2. Feedback on what are considered to be interim research products, and how they are used in your field.
+2. Feedback on what are considered to be interim research products, and how they are used in your field
 
 * Preprints and other prepublication sharing mechanisms
     * We regularly read and share bioRxiv and arXiv preprints. In some fields (such as machine learning), the rapid rate at which the field advances means that arXiv is a primary venue for reporting new work.
@@ -51,17 +51,18 @@ My laboratory in a mixed wet/dry laboratory. Interim research projects my labora
 * Protein structures in the RCSB
     * The utility of the RCSB as a resource for biology is unquestionable.
 
-3. Insight on how particular types of interim research products might impact the advancement of science.
+### Insight on how particular types of interim research products might impact the advancement of science
 
 There is great value in many interim research products. Peer-reviewed publications are not error-free and endowed with value simply by virtue of the fact that they have passed through the peer review process---to think otherwise is nothing short of "magical thinking" that does nothing but damage our field and hinder progress. The current publication peer review system is highly flawed, and may do little to ultimately enhance ultimate research quality or accuracy. Instead, the main factors governing the utility of research products (interim and final) are:
+
 * Relevance: Is the research product relevant to my project, and provide important information that informs my own work?
 * Timeliness: Is the research product available when I'm looking for it?
 * Quality: Does the research product meet the standards of quality I expect from the field, especially in terms of the data I need to address my question? I am a much better judge of this than a reviewer without knowledge of my specific research question.
 * Trustworthiness: Is the research from a trustworthy scientist or laboratory?
 
-The tiemeliness factor is not to be underestimated. In particular, it is critical to consider the overall cost of delaying release of a publication and its data by a lengthy multi-month review process.
+The timeliness factor is not to be underestimated. In particular, it is critical to consider the overall cost of delaying release of a publication and its data by a lengthy multi-month review process.
 
-4. Feedback on potential citation standards.
+### Feedback on potential citation standards
 
 * It is now relatively straightforward to assign DOIs to interim research projects such as software (e.g. [Zenodo](http://zenodo.org)), datasets or figures (e.g. FigShare), many other forms of interim research products. DOIs should become a standard requirement.
 * Authors or major contributors should continue to be listed so that they may get credit for their work.
@@ -70,15 +71,15 @@ Should the NIH consider trying to define their own standard, as they have with P
 
 http://xkcd.com/927/
 
-5. Insight on the possible need and potential impact of citing interim products on peer review of NIH applications.
+### Insight on the possible need and potential impact of citing interim products on peer review of NIH applications
 
 For early-career scientists (where time to receiving first NIH funding is a major factor in career progression) or any time-sensitive research, it is critical that the NIH allow interim products to be cited in NIH applications as evidence of productivity leading up to grant submissions.
 
-6. Advice on how NIH reviewers might evaluate citations of interim research products in applications.
+### Advice on how NIH reviewers might evaluate citations of interim research products in applications
 
 NIH reviewers should evaluate interim research products the same way they should evaluate any research project: By the quality, utility, and significance of the scientific results presented in it.
 How else are would they evaluate research products? By looking to see if they are published in Nature or Science? Because if that is what is currently happening, we have a major problem not with how reviewers should evaluate interim research projects, but how reviewers evaluate all research products.
 
-7. Any other relevant information
+### Any other relevant information
 
 Rather than delicately approaching the issue of pre-publication products (instead of wholeheartedly embracing them), the NIH should develop a strategy to cope with the impending demise of the journal enterprise, and whether the NIH can do more to accelerate this process. [Elsevier alone has an annual publishing revenue of $25.2B](https://medium.com/@jasonschmitt/can-t-disrupt-this-elsevier-and-the-25-2-billion-dollar-a-year-academic-publishing-business-aa3b9618d40a#.rskqys5kh), which is nearly the size of the NIH extramural budget. Elimination of the flawed peer-review journal system and establishment of an NIH-supported post-publication review or rating system that rapidly disseminated NIH-funded scientific results would save an enormous amount of money and drastically increase scientific productivity.
