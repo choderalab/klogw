@@ -11,11 +11,14 @@ tags:
 ---
 The NIH has posted an [RFI on including "preprints and interim research products" in NIH applications and reports](http://grants.nih.gov/grants/guide/notice-files/NOT-OD-17-006.html).
 Many others have provided responses to this RFI that they have shared publicly, including thoughtful responses from [David Mobley](http://mobleylab.org/2016/11/17/where-do-we-hope-publishing-is-headed-preprints-and-interim-research-products/), [Steven Floor](https://twitter.com/stephenfloor/status/806986294127538176), and others that have been collected by [ASAPBio](http://asapbio.org/nih-rfi).
-Here is my response, written very quickly on a train ride back from the NIH:
+Here is my response, written very quickly on a train ride back from the NIH.
+
+<!--more-->
 
 ### Types of interim research products your or your organization create/and or host
 
 My laboratory in a mixed wet/dry laboratory. Interim research projects my laboratory both creates and uses are:
+
 * Preprints and other prepublication sharing mechanisms
     * We regularly post manuscripts to [bioRxiv](http://biorxiv.org) or [arXiv](http://arxiv.org) ahead of submission in order to solicit community feedback prior to submission. We find this process has universally improved the quality of our submitted manuscripts and allowed others to make immediate use of our work.
 * Open source software:
