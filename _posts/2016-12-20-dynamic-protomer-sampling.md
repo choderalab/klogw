@@ -1,7 +1,7 @@
 ---
 layout: post
 author: jchodera
-title: Protomer/tautomer sampling for small molecules and proteins in molecular simulations
+title: Dynamic protomer sampling
 date: 2016-12-20
 published: true
 tags:
@@ -26,7 +26,7 @@ More recently, Benoit Roux has made significant refinements to the [explicit sol
 {% include image name="constant-pH-method-overview.jpg" caption="Overview of the dynamic protomer/tautomer sampling scheme." %}
 
 From left to right:
-For both **amino acids** and **small molecules**, we must first compute the aqueous relative free energies of each protomer species at the pH of interest, \Delta G_{aq}^{\bf pH}$.
+For both **amino acids** and **small molecules**, we must first compute the aqueous relative free energies of each protomer species at the pH of interest, $\Delta G_{aq}^{\bf pH}$.
 For amino acids, we use reference p$K_as$ for amino acids in isolation, and compute $\Delta G_{aq}^{\bf pH}$ at the pH of interest with the Henderson-Hasselbalch equation (or variants).
 For small molecules, we use a protomer aqueous population prediction tool (such as [Epik](https://www.schrodinger.com/epik)) to estimate $\Delta G_{aq}^{\bf pH}$, avoiding the uncoupling of titratable sites within the molecule that may be coupled by electronic effects, as in the quinazoline ring shown here.
 For each titratable entity (small molecule or ionizable residue in a reference state matching the reference p$K_a$), an explicit solvent **SAMS calibration of protomer log weights** follows, which uses a [Gibbs sampling framework](http://dx.doi.org/10.1063/1.3660669) in which positions ${\bf x}$ are updated by some form of (possibly Metropolized) molecular dynamics, protomer states ${\bf s}$ are updated by [NCMC](http://dx.doi.org/10.1073/pnas.1106094108), and the optimal [SAMS (self-adjusted mixture sampling)](http://stat.rutgers.edu/home/ztan/Publication/SAMS_preprint.pdf) update scheme is used to update the log weights ${\bf g}$ (here using the function $f$).
