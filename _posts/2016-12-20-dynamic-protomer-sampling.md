@@ -23,7 +23,7 @@ More recently, Benoit Roux has made significant refinements to the [explicit sol
 
 <!-- See https://eduardoboucas.com/blog/2014/12/07/including-and-managing-images-in-jekyll.html for info on including images -->
 
-{% include image name="constant-pH-method-overview.jpg" caption="Overview of the dynamic protomer/tautomer sampling scheme." %}
+{% include image.html name="constant-pH-method-overview.jpg" %}
 
 From left to right:
 For both **amino acids** and **small molecules**, we must first compute the aqueous relative free energies of each protomer species at the pH of interest, $\Delta G_{aq}^{\bf pH}$.
