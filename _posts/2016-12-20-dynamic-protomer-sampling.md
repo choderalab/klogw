@@ -53,16 +53,16 @@ To complete our hybrid constant-pH alchemical methodology, we need two additiona
 and (2) an updated analysis method to extract pH-dependent free energy estimates.
 For (1), we first define an appropriate *reduced potential* \\(u(x,{\bf s};\lambda,\mathsf{pH})\\), where the equilibrium distribution sampled by a given replica is \\(\pi(x,{\bf s};\beta, p, \lambda,\mathsf{pH}) \propto e^{-u(x,{\bf s};\beta, p, \lambda,\mathsf{pH})}\\), with \\(x\\) the current instantaneous configuration, \\({\bf s} \in \mathbb{Z}^N\\) an integer vector specifying the current protonation state of all \\(N\\) titratable sites (across small molecules and protein), \\(\beta = 1/(k_B T)\\) the inverse temperature, \\(p\\) pressure, \\(\lambda \in [0,1]\\) the alchemical parameter, and pH the current pH:
 
-$$ u(x,{\bf s};\beta, p, \lambda,\mathsf{pH}) &\equiv& \beta \left[ U(x;{\bf s}, \lambda) + p V(x) + g_{\bf s}(\mathsf{pH}) \right] $$
+$$ u(x,{\bf s};\beta, p, \lambda,\mathsf{pH}) \equiv \beta \left[ U(x;{\bf s}, \lambda) + p V(x) + g_{\bf s}(\mathsf{pH}) \right] $$
 
 where \\(U(x;{\bf s},\lambda)\\) is the potential energy function that depends on both protomers \\({\bf s}\\) and alchemical parameter \\(\lambda\\), \\(V(x)\\) the current volume, and \\(g_{\bf s}(pH)\\) is the pH-corrected log weights.
 If velocities are regenerated from the Maxwell-Boltzmann distribution at the beginning of each Hamiltonian exchange iteration, the acceptance criteria is
 
-$$ P_\mathrm{exchange}( ({\bf x}_i, {\bf s}_i),  ({\bf x}_j, {\bf s}_j)) &=& \min \left\{ 1, \frac{ e^{-u(x_j,{\bf s}_j;\beta_i, p_i, \lambda_i,\mathsf{pH}_i) - u(x_i,{\bf s}_i;\beta_j, p_j, \lambda_j,\mathsf{pH}_j)}  }{ e^{-u(x_i,{\bf s}_i;\beta_i, p_i, \lambda_i,\mathsf{pH}_i) - u(x_j,{\bf s}_j;\beta_j, p_j, \lambda_j,\mathsf{pH}_j)} } \right\} $$
+$$ P_\mathrm{exchange}( ({\bf x}_i, {\bf s}_i),  ({\bf x}_j, {\bf s}_j)) = \min \left\{ 1, \frac{ e^{-u(x_j,{\bf s}_j;\beta_i, p_i, \lambda_i,\mathsf{pH}_i) - u(x_i,{\bf s}_i;\beta_j, p_j, \lambda_j,\mathsf{pH}_j)}  }{ e^{-u(x_i,{\bf s}_i;\beta_i, p_i, \lambda_i,\mathsf{pH}_i) - u(x_j,{\bf s}_j;\beta_j, p_j, \lambda_j,\mathsf{pH}_j)} } \right\} $$
 
 For (2), the free energy contribution for each alchemical leg is optimally estimated using the [multistate Bennett acceptance ratio (MBAR)](http://dx.doi.org/10.1063/1.2978177) method we developed to analyze equilibrium data from arbitrary equilibrium thermodynamic states, by solving the self-consistent equations for the dimensionless free energies \\(\hat{f}_i\\), \\(i = 1,\ldots,K\\),
 
-$$ \hat{f}_i &\equiv& - \ln \sum_{k=1}^K \sum_{n=1}^{N_k} \left[ \sum_{l=1}^K \exp\left\{\hat{f}_l - [u(x_{kn}, {\bf s}_{kn}; \beta_l, p_l, \lambda_l, \mathsf{pH}_l) - u(x_{kn}, {\bf s}_{kn}; \beta_i, p_i, \lambda_i, \mathsf{pH}_i)]\right\}  \right]^{-1} $$
+$$ \hat{f}_i \equiv - \ln \sum_{k=1}^K \sum_{n=1}^{N_k} \left[ \sum_{l=1}^K \exp\left\{\hat{f}_l - [u(x_{kn}, {\bf s}_{kn}; \beta_l, p_l, \lambda_l, \mathsf{pH}_l) - u(x_{kn}, {\bf s}_{kn}; \beta_i, p_i, \lambda_i, \mathsf{pH}_i)]\right\}  \right]^{-1} $$
 
 where there are \\(N_k\\) samples \\(x_{kn}\\) from each of \\(K\\) alchemical states.
 This self-consistent set of equations can be efficiently solved in several ways; we make use of [pymbar](http://pymbar.org) to do this.
