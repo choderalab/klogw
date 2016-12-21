@@ -38,3 +38,12 @@ Next, we perform **pH correction of log weights**, in which we remove the residu
 This can be used to compute the pH-corrected log weight for any pH of interest without additional SAMS calibration.
 Finally, in **MCMC protonation state sampling**, all titratable entities of interest (residues and small molecules) are included in the simulation, and we simulate use a modified version of the same Gibbs sampling updates we used in calibration, except that the pH-corrected log weights \\({\bf g}(\mathsf{pH})\\) are fixed throughout the simulations.
 The overall distribution sampled is an expanded ensemble \\(\pi({\bf x}, {\bf s})\\) that includes the protomer states \\({\bf s}\\) of all titratable entities in the system.
+
+{% include image.html name="ncmc-efficiency.jpg" %}
+
+This scheme can be surprisingly effective.
+*(A)* While explicit solvent acceptance rates for instantaneous Monte Carlo protomer change proposals are vanishingly small (\\(\sim 10^{-24} \\)), NCMC proposals with [GHMC (Metropolized Langevin) integration](https://arxiv.org/abs/1006.4914) to eliminate [shadow work](https://doi.org/10.1103/PhysRevX.3.011007) boost acceptance rates by a factor of \\(\sim 10^{23}\\) for switching times of 10 ps or more.
+Error bars denote 95% confidence intervals.
+*(B)* Calibration of imatinib uncorrected protomer log weights in explicit solvent using SAMS rapidly converge to \\(\sim 1 \: k_B T\\) in 4000 iterations of 1 ps of GHMC propagation followed by a 10 ps NCMC protomer switch proposal.
+*(C)* Abl:imatinib complex showing ionizable residues observed to change protonation state in 2 ns of MD/MC simulation in explicit solvent at pH 7.4.
+*(D)* Accepted protonation state changes for ionizable residues in Abl kinase at pH 7.4.
