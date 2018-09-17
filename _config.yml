@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Theme
-remote_theme: benbalter/retlab
+remote_theme:     benbalter/retlab
 
 # Permalinks
 permalink:        pretty
@@ -34,5 +34,5 @@ github:
 gems:
   - jekyll-paginate
   - jekyll-gist
-  - jekyll-remote
+  - jekyll-remote-theme
 
