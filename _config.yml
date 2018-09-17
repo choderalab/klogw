@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Theme
-remote_theme:     benbalter/retlab
+remote_theme:     poole/hyde
 
 # Permalinks
 permalink:        pretty
