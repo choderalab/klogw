@@ -2,6 +2,9 @@
 markdown:         kramdown
 highlighter:      rouge
 
+# Theme
+remote_theme:     poole/hyde
+
 # Permalinks
 permalink:        pretty
 
